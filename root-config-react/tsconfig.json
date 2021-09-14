@@ -1,0 +1,9 @@
+{
+  "extends": "ts-config-single-spa",
+  "files": ["src/i2020-root-config.ts"],
+  "compilerOptions": {
+    "declarationDir": "dist"
+  },
+  "include": ["src/**/*", "../app-react-login/src/App.ts"],
+  "exclude": ["src/**/*.test*"]
+}
